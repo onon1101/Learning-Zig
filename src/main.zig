@@ -1,17 +1,16 @@
 const std = @import("std");
 const Print = std.debug.print;
 
-pub fn main() void
-{
-    const number_1: i32= 10;
+pub fn main() void {
     var number_2: i32 = 10;
-    _ = number_1;
-    _ = number_2;
-    // Function();
-}
 
-// pub or not pub 
-fn Function() void
-{
+    number_2 += 10;
 
+    const letter: u8 = 'a';
+    const wordArray = [5]u8{ 'H', 'e', 'l', 'l', 'o' };
+    const word: []const u8 = "hello";
+
+    _ = letter;
+    _ = wordArray;
+    _ = word;
 }
