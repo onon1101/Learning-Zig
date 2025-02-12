@@ -5,6 +5,8 @@ pub fn main() void
 {
     const number_1: i32= 10;
     var number_2: i32 = 10;
+    _ = number_1;
+    _ = number_2;
     // Function();
 }
 
